@@ -1,4 +1,4 @@
-import szamlazz from 'szamlazz.js';
+import szamlazz from '@jssc/szamlazz.js';
 import getBuyer from './get-buyer';
 import getSeller from './get-seller';
 import getItems from './get-items';

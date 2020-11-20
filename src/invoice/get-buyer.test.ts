@@ -1,10 +1,7 @@
 import { promisify } from 'util';
 import fs from 'fs';
 import yaml from 'yaml';
-import szamlazz from '@jssc/szamlazz.js';
-import create from './create';
-
-jest.mock('@jssc/szamlazz.js');
+import getBuyer from './get-buyer';
 
 const readFile = promisify(fs.readFile);
 const order = {
@@ -124,24 +121,19 @@ const order = {
 };
 
 
-describe('create invoice', () => {
-  test('szamlazz invoice invoked with proper params', async () => {
-      const file = await readFile('./test-config.yaml', 'utf8');
-      const config = (yaml.parse(file)).events['integration-test-event-2020'];
-
-      create(
-        order,
-        config,
-        szamlazz.Seller,
-        szamlazz.Buyer,
-        szamlazz.Item,
-        szamlazz.Invoice
-      );
-
-      const invoice = szamlazz.Invoice.mock.calls[0][0];
-
-      expect(invoice.paymentMethod.value).toBe('PayPal');
-      expect(invoice.currency.value).toBe('EUR');
-      expect(invoice.language.value).toBe('en');
+describe('get buyer', () => {
+  test('buyer with vat number', async () => {
+      const buyer = getBuyer(order)
+      expect(buyer.taxNumber).toBe('234536');
   });
+
+  test('buyer without vat number', async () => {
+    const order2 = Object.assign({}, order)
+    order2.billing_address = Object.assign({}, order.billing_address)
+
+    order2.billing_address.vat_number = '0'
+
+    const buyer = getBuyer(order2)
+    expect(buyer.taxNumber).toBe('');
+});
 });

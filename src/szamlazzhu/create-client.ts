@@ -1,4 +1,4 @@
-import szamlazz from 'szamlazz.js';
+import szamlazz from '@jssc/szamlazz.js';
 
 export default config => new szamlazz.Client({
     authToken: process.env.SZAMLAZZ_TOKEN,

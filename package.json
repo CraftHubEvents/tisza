@@ -34,7 +34,7 @@
     "form-data": "^3.0.0",
     "mailgun-js": "^0.22.0",
     "round-to": "^4.0.0",
-    "szamlazz.js": "^4.1.0",
+    "@jssc/szamlazz.js": "^4.2.0",
     "yaml": "^1.7.2"
   },
   "devDependencies": {

@@ -1,4 +1,6 @@
-export default (order) => {
+import { Buyer } from '../szamlazzhu/types'
+
+export default (order) : Buyer => {
   const {
     name,
     email,
@@ -14,18 +16,17 @@ export default (order) => {
   } = order;
 
   const buyerName = company_name || name;
-  const taxNumber = vat_number === '0' ? '' : vat_number;
   const addressWithState = `${address.replace(/[\r]?\n/g, ' ')} ${state}`;
 
-  return {
+  const data : Buyer = {
     name: buyerName,
     email,
     sendEmail: true,
     country,
+    taxNumber: '',
     zip,
     city,
     address: addressWithState,
-    taxNumber,
     postAddress: {
       name: buyerName,
       zip,
@@ -36,4 +37,10 @@ export default (order) => {
     phone: '',
     issuerName: name,
   };
+
+  if (vat_number !== '0' ) {
+    data.taxNumber = vat_number
+  }
+
+  return data
 };
