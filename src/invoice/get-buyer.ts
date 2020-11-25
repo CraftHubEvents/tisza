@@ -40,6 +40,5 @@ export default (order) : Buyer => {
     issuerName: name,
   };
 
-
   return data;
 };

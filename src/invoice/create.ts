@@ -1,4 +1,5 @@
 import yaml from 'yaml';
+
 import szamlazz from '@jssc/szamlazz.js';
 import getBuyer from './get-buyer';
 import getSeller from './get-seller';

@@ -1,163 +1,81 @@
 ---
 events:
 
-  reinforce2021:
-    label: "Reinforce AI Conference 2021"
+  craft-conferencee-2021:
+    label: "CraftHub online workshops"
     dates:
-      - ticket-name-contains: "ML/DL"
-        date: "December 2 & 9, 2020"
-      - ticket-name-contains: "MLflow"
-        date: "November 23 & 24, 2020"        
-      - ticket-name-contains: "*"
-        date: "March 3–5, 2021"        
+      - ticket-name-contains: "Falco"
+        date: "November 11, 18, 25, 2020"
+      - ticket-name-contains: "Rainsberger"
+        date: "November 10, 12, 17, 19, 2020"
+      - ticket-name-contains: "Titkos"
+        date: "November 11, 18, 25, 2020"
     catering:
-      - ticket-name-contains: "*"
+      - ticket-name-contains: "online"
         net-price: 0
     invoice:
-      id-prefix: "RF"
-      logo-image: "RF-szamlazzhu.png"
+      id-prefix: "WSH"
+      logo-image: ""
       comment: |
-        The invoice includes mediated services.
         Paid in full.
         This document was issued electronically and is therefore valid without signature.
       e-invoice: true
-      currency: EUR
+      currency: USD
     email:
-      replyToAddress: "hello@reinforceconf.com"
-      subject: "Your invoice for Reinforce AI Conference 2021"
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for your CraftHub online workshop"
       message: |
         Dear Attendee!
 
-        Thank you for taking part in Reinforce AI Conference 2021.
+        Thank you for purchasing tickets for CraftHub's online workshop.
 
-        Please find attached our official invoice for the Reinforce AI conference.
-        In case you have an issue with the invoice please reply to this e-mail.
-        In case you have a general question regarding the conference please write to: hello@reinforceconf.com
+        Please find attached our official invoice for the workshop.
+        In case you have an issue with the invoice, or you have a general question
+        regarding the workshop please write to: hello@crafthub.events
 
-        The Reinforce conference team
+        The CraftHub team
 
     bank:
-      name: 'Raiffeisen Bank, SWIFT: UBRTHUHB'
-      accountNumber: 'HU73-1201-0659-0160-2199-0040-0002'
-    tito-signature-validator-env: TITO_TOKEN_RF_2021
+      name: 'K&H Bank, SWIFT: OKHBHUHB'
+      accountNumber: 'HU05-1040-3404-5052-6976-5752-1028'
+    tito-signature-validator-env: TITO_TOKEN_ONLINE_WSH
 
 
-  reinforce2021online:
-    label: "Reinforce AI Conference 2021"
+  crafthub-stretch-online-conference:
+    label: "CraftHub - Stretch Online Conference"
     dates:
-      - ticket-name-contains: "ML/DL"
-        date: "December 2 & 9, 2020"
-      - ticket-name-contains: "MLflow"
-        date: "November 23 & 24, 2020"       
-      - ticket-name-contains: "*"
-        date: "March 3–5, 2021"
+      - ticket-name-contains: "Stretch"
+        date: "December 2-4, 2020"
+      - ticket-name-contains: "Bird"
+        date: "December 2-4, 2020"
     catering:
-      - ticket-name-contains: "*"
+      - ticket-name-contains: "Stretch"
+        net-price: 0
+      - ticket-name-contains: "Bird"
         net-price: 0
     invoice:
-      id-prefix: "RF"
-      logo-image: "RF-szamlazzhu.png"
+      id-prefix: "STRCH"
+      logo-image: ""
       comment: |
-        The invoice includes mediated services.
         Paid in full.
         This document was issued electronically and is therefore valid without signature.
       e-invoice: true
-      currency: EUR
+      currency: USD
     email:
-      replyToAddress: "hello@reinforceconf.com"
-      subject: "Your invoice for Reinforce AI Conference 2021"
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for your Stretch Online Conference"
       message: |
         Dear Attendee!
 
-        Thank you for taking part in Reinforce AI Conference 2021.
-
-        Please find attached our official invoice for the Reinforce AI conference.
-        In case you have an issue with the invoice please reply to this e-mail.
-        In case you have a general question regarding the conference please write to: hello@reinforceconf.com
-
-        The Reinforce conference team
-
-    bank:
-      name: 'Raiffeisen Bank, SWIFT: UBRTHUHB'
-      accountNumber: 'HU73-1201-0659-0160-2199-0040-0002'
-    tito-signature-validator-env: TITO_TOKEN_RF
-
-
-  jsconf-budapest-2021:
-    label: "JSConf Budapest 2021"
-    dates:
-      - ticket-name-contains: "*"
-        date: "September 23-24, 2021"
-    catering:
-      - ticket-name-contains: "*"
-        net-price: 98
-    invoice:
-      id-prefix: "JSCBP"
-      logo-image: "JSCBP-szamlazzhu.png"
-      comment: |
-        The invoice includes mediated services.
-        Paid in full.
-        This document was issued electronically and is therefore valid without signature.
-      e-invoice: true
-      currency: EUR
-    email:
-      replyToAddress: "team@jsconfbp.com"
-      subject: "Your invoice for JSConf Budapest 2021"
-      message: |
-        Dear Attendee!
-
-        Thank you for purchasing tickets for JSConf Budapest 2021.
+        Thank you for purchasing tickets for Stretch Online Conference.
 
         Please find attached our official invoice for the conference.
         In case you have an issue with the invoice, or you have a general question
-        regarding the conference please write to: team@jsconfbp.com
+        regarding the workshop please write to: hello@crafthub.events
 
-        The JSConf Budapest team
-
-    bank:
-      name: "Raiffeisen Bank, SWIFT: UBRTHUHB"
-      accountNumber: "HU18-1201-0659-0160-2199-0020-0008"
-    tito-signature-validator-env: TITO_TOKEN_JS
-
-
-  integration-test-event-2020:
-    label: "JSConf Budapest 2020"
-    dates:
-      - ticket-name-contains: "*"
-        date: "September 24-25, 2020"
-      - ticket-name-contains: "workshop"
-        date: "September 23, 2020"
-    catering:
-      - ticket-name-contains: "workshop"
-        net-price: 20
-      - ticket-name-contains: "online"
-        net-price: 0
-      - ticket-name-contains: "*"
-        net-price: 40
-    invoice:
-      id-prefix: "WIPAO"
-      logo-image: "JSCBP-szamlazzhu.png"
-      comment: |
-        The invoice includes mediated services.
-        Paid in full.
-        This document was issued electronically and is therefore valid without signature.
-      e-invoice: false
-      currency: EUR
-    email:
-      reply-to-address: "nec@jsconfbp.com"
-      subject: "Your invoice for Integration Test Event 2020"
-      message: |
-        Dear Attendee!
-
-        Thank you for taking part in Reinforce AI Conference 2020.
-
-        Please find attached our official invoice for the Reinforce AI conference.
-        In case you have an issue with the invoice please reply to this e-mail.
-        In case you have a general question regarding the conference please write to: hello@reinforceconf.com
-
-        The Reinforce conference team
+        The CraftHub team
 
     bank:
-      name: "Raiffeisen Bank, SWIFT: UBRTHUHB"
-      account-number: "HU18-1201-0659-0160-2199-0020-0008"
-    tito-signature-validator-env: TITO_TOKEN_TESTMODE
+      name: 'K&H Bank, SWIFT: OKHBHUHB'
+      accountNumber: 'HU05-1040-3404-5052-6976-5752-1028'
+    tito-signature-validator-env: TITO_TOKEN_STRETCH
