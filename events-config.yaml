@@ -80,3 +80,41 @@ events:
       name: 'K&H Bank, SWIFT: OKHBHUHB'
       accountNumber: 'HU76-1040-3404-5052-6976-5752-1011'
     tito-signature-validator-env: TITO_TOKEN_CRAFT21
+
+
+ amuse-workshops:
+    label: "Amuse online workshops"
+    dates:
+      - ticket-name-contains: "Aarron"
+        date: "April 28-29, 2021"
+    catering:
+      - ticket-name-contains: "Conference"
+        net-price: 0
+      - ticket-name-contains: "Workshop"
+        net-price: 0
+    invoice:
+      id-prefix: "AMUSE"
+      logo-image: ""
+      comment: |
+        Paid in full.
+        This document was issued electronically and is therefore valid without signature.
+      e-invoice: true
+      currency: EUR
+    email:
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for your Amuse online workshop"
+      message: |
+        Dear Attendee!
+
+        Thank you for purchasing tickets for our Amuse online workshop.
+
+        Please find attached our official invoice for the event.
+        In case you have an issue with the invoice, or you have a general question
+        please write to: hello@crafthub.events
+
+        The CraftHub team
+
+    bank:
+      name: 'K&H Bank, SWIFT: OKHBHUHB'
+      accountNumber: 'HU76-1040-3404-5052-6976-5752-1011'
+    tito-signature-validator-env: TITO_TOKEN_AMUSEWSH21
