@@ -45,10 +45,10 @@ events:
     dates:
       - ticket-name-contains: "Conference"
         date: "June 2-4, 2021"
-      - ticket-name-contains: "Pinal"
-        date: "February 24, 25, 2021"
-      - ticket-name-contains: "Rising"
-        date: "February 24, March 03, 10, 2021"
+      - ticket-name-contains: "May 27-28"
+        date: "May 27-28, 2021"
+      - ticket-name-contains: "May 31-June 1"
+        date: "May 31-June 1, 2021"
     catering:
       - ticket-name-contains: "Conference"
         net-price: 0
