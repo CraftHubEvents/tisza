@@ -82,7 +82,7 @@ events:
     tito-signature-validator-env: TITO_TOKEN_CRAFT21
 
 
- amuse-workshops:
+  amuse-workshops:
     label: "Amuse online workshops"
     dates:
       - ticket-name-contains: "Aarron"
