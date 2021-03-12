@@ -11,7 +11,7 @@ events:
       - ticket-name-contains: "*"
         date: "March 3–5, 2021"
     catering:
-      - ticket-name-contains: "online"
+      - ticket-name-contains: "*"
         net-price: 0
     invoice:
       id-prefix: "WSH"
@@ -50,9 +50,7 @@ events:
       - ticket-name-contains: "May 31-June 1"
         date: "May 31-June 1, 2021"
     catering:
-      - ticket-name-contains: "Conference"
-        net-price: 0
-      - ticket-name-contains: "Workshop"
+      - ticket-name-contains: "*"
         net-price: 0
     invoice:
       id-prefix: "CRAFT"
@@ -88,10 +86,7 @@ events:
       - ticket-name-contains: "Aarron"
         date: "April 28-29, 2021"
     catering:
-      - ticket-name-contains: "Conference"
-        net-price: 0
-      - ticket-name-contains: "Workshop"
-        net-price: 0
+      - ticket-name-contains: "*"
     invoice:
       id-prefix: "AMUSE"
       logo-image: ""
