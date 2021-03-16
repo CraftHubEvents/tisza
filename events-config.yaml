@@ -49,6 +49,8 @@ events:
         date: "May 27-28, 2021"
       - ticket-name-contains: "May 31-June 1"
         date: "May 31-June 1, 2021"
+      - ticket-name-contains: "Combo"
+        date: "May 27-June 4, 2021"    
     catering:
       - ticket-name-contains: "*"
         net-price: 0
