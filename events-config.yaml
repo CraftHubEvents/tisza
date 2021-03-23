@@ -94,6 +94,7 @@ events:
         date: "April 28-29, 2021"
     catering:
       - ticket-name-contains: "*"
+        net-price: 0
     invoice:
       id-prefix: "AMUSE"
       logo-image: ""
