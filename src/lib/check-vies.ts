@@ -8,7 +8,7 @@ export default async (countryCode: string, vatId: string) : Promise<boolean> => 
     vatNumber = vatNumber.replace(rgx, '');
   }
 
-  vatNumber = vatNumber.trim();
+  vatNumber = vatNumber.replace(/[^a-zA-Z0-9.]/g, ''); // can contain only numbers and letters
 
   validateVat(countryCode, vatNumber, 120 * 1000, (err, validationInfo) => {
     if (err) reject(err);
