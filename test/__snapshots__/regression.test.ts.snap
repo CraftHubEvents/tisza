@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`vat info line is undefined if vat contains whitespace at 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
+<xmlszamla xmlns=\\"http://www.szamlazz.hu/xmlszamla\\" xmlns:xsi=\\"http://www.w3.org/2001/XMLSchema-instance\\" xsi:schemaLocation=\\"http://www.szamlazz.hu/xmlszamla xmlszamla.xsd\\">
+  <beallitasok>
+    <szamlaagentkulcs>ABCDEFGHIJK</szamlaagentkulcs>
+    <eszamla>true</eszamla>
+    <szamlaLetoltes>false</szamlaLetoltes>
+    <szamlaLetoltesPld>1</szamlaLetoltesPld>
+    <valaszVerzio>1</valaszVerzio>
+  </beallitasok>
+  <fejlec>
+    <keltDatum>2021-03-22</keltDatum>
+    <teljesitesDatum>2021-03-22</teljesitesDatum>
+    <fizetesiHataridoDatum>2021-03-22</fizetesiHataridoDatum>
+    <fizmod>PayPal</fizmod>
+    <penznem>EUR</penznem>
+    <szamlaNyelve>en</szamlaNyelve>
+    <megjegyzes>Reverse charge VAT.
+The invoice includes mediated services.
+Paid in full.
+This document was issued electronically and is therefore valid without signature.</megjegyzes>
+    <arfolyamBank></arfolyamBank>
+    <arfolyam>0</arfolyam>
+    <rendelesSzam>K0DF</rendelesSzam>
+    <elolegszamla>false</elolegszamla>
+    <logoExtra>JS-szamlazzhu.png</logoExtra>
+    <szamlaszamElotag>JSSC</szamlaszamElotag>
+    <fizetve>true</fizetve>
+  </fejlec>
+  <elado>
+    <bank>Raiffeisen Bank, SWIFT: UBRTHUHB</bank>
+    <bankszamlaszam>HU73-1201-0659-0160-2199-0040-0002</bankszamlaszam>
+  </elado>
+  <vevo>
+    <nev>TechTalk GmbH</nev>
+    <orszag>AT</orszag>
+    <irsz>1220</irsz>
+    <telepules>Vienna</telepules>
+    <cim>Leonard-Bernstein-Strasse 10 Vienna</cim>
+    <email>neccccc@gmail.com</email>
+    <sendEmail>true</sendEmail>
+    <adoalany>6</adoalany>
+    <adoszam>ATU 161 52 400</adoszam>
+    <postazasiNev>TechTalk GmbH</postazasiNev>
+    <postazasiIrsz>1220</postazasiIrsz>
+    <postazasiTelepules>Vienna</postazasiTelepules>
+    <postazasiCim>Leonard-Bernstein-Strasse 10 Vienna</postazasiCim>
+    <azonosito>ATU16152400</azonosito>
+    <alairoNeve>Szabolcs Szabolcsi-Toth</alairoNeve>
+    <telefonszam></telefonszam>
+  </vevo>
+  <tetelek>
+  <tetel>
+    <megnevezes>Early Bird</megnevezes>
+    <mennyiseg>2</mennyiseg>
+    <mennyisegiEgyseg>qt</mennyisegiEgyseg>
+    <nettoEgysegar>90.32</nettoEgysegar>
+    <afakulcs>TEHK</afakulcs>
+    <nettoErtek>180.64</nettoErtek>
+    <afaErtek>0</afaErtek>
+    <bruttoErtek>180.64</bruttoErtek>
+    <megjegyzes>Ticket for JSConf Budapest 2021, September 23, 2020</megjegyzes>
+  </tetel>
+  <tetel>
+    <megnevezes>Conference catering fee</megnevezes>
+    <mennyiseg>2</mennyiseg>
+    <mennyisegiEgyseg>qt</mennyisegiEgyseg>
+    <nettoEgysegar>114.68</nettoEgysegar>
+    <afakulcs>TEHK</afakulcs>
+    <nettoErtek>229.36</nettoErtek>
+    <afaErtek>0</afaErtek>
+    <bruttoErtek>229.36</bruttoErtek>
+  </tetel>
+  </tetelek>
+</xmlszamla>"
+`;
+
+exports[`vat info line is undefined if vat contains whitespace fr 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>
+<xmlszamla xmlns=\\"http://www.szamlazz.hu/xmlszamla\\" xmlns:xsi=\\"http://www.w3.org/2001/XMLSchema-instance\\" xsi:schemaLocation=\\"http://www.szamlazz.hu/xmlszamla xmlszamla.xsd\\">
+  <beallitasok>
+    <szamlaagentkulcs>ABCDEFGHIJK</szamlaagentkulcs>
+    <eszamla>true</eszamla>
+    <szamlaLetoltes>false</szamlaLetoltes>
+    <szamlaLetoltesPld>1</szamlaLetoltesPld>
+    <valaszVerzio>1</valaszVerzio>
+  </beallitasok>
+  <fejlec>
+    <keltDatum>2021-03-22</keltDatum>
+    <teljesitesDatum>2021-03-22</teljesitesDatum>
+    <fizetesiHataridoDatum>2021-03-22</fizetesiHataridoDatum>
+    <fizmod>PayPal</fizmod>
+    <penznem>EUR</penznem>
+    <szamlaNyelve>en</szamlaNyelve>
+    <megjegyzes>Reverse charge VAT.
+The invoice includes mediated services.
+Paid in full.
+This document was issued electronically and is therefore valid without signature.</megjegyzes>
+    <arfolyamBank></arfolyamBank>
+    <arfolyam>0</arfolyam>
+    <rendelesSzam>K0DF</rendelesSzam>
+    <elolegszamla>false</elolegszamla>
+    <logoExtra>JS-szamlazzhu.png</logoExtra>
+    <szamlaszamElotag>JSSC</szamlaszamElotag>
+    <fizetve>true</fizetve>
+  </fejlec>
+  <elado>
+    <bank>Raiffeisen Bank, SWIFT: UBRTHUHB</bank>
+    <bankszamlaszam>HU73-1201-0659-0160-2199-0040-0002</bankszamlaszam>
+  </elado>
+  <vevo>
+    <nev>Teads France SAS</nev>
+    <orszag>FR</orszag>
+    <irsz>75006</irsz>
+    <telepules>Paris</telepules>
+    <cim>97 rue du Cherche-midi Paris</cim>
+    <email>neccccc@gmail.com</email>
+    <sendEmail>true</sendEmail>
+    <adoalany>6</adoalany>
+    <adoszam>FR 40 483 813 861</adoszam>
+    <postazasiNev>Teads France SAS</postazasiNev>
+    <postazasiIrsz>75006</postazasiIrsz>
+    <postazasiTelepules>Paris</postazasiTelepules>
+    <postazasiCim>97 rue du Cherche-midi Paris</postazasiCim>
+    <azonosito>FR40483813861</azonosito>
+    <alairoNeve>Szabolcs Szabolcsi-Toth</alairoNeve>
+    <telefonszam></telefonszam>
+  </vevo>
+  <tetelek>
+  <tetel>
+    <megnevezes>Early Bird</megnevezes>
+    <mennyiseg>2</mennyiseg>
+    <mennyisegiEgyseg>qt</mennyisegiEgyseg>
+    <nettoEgysegar>90.32</nettoEgysegar>
+    <afakulcs>TEHK</afakulcs>
+    <nettoErtek>180.64</nettoErtek>
+    <afaErtek>0</afaErtek>
+    <bruttoErtek>180.64</bruttoErtek>
+    <megjegyzes>Ticket for JSConf Budapest 2021, September 23, 2020</megjegyzes>
+  </tetel>
+  <tetel>
+    <megnevezes>Conference catering fee</megnevezes>
+    <mennyiseg>2</mennyiseg>
+    <mennyisegiEgyseg>qt</mennyisegiEgyseg>
+    <nettoEgysegar>114.68</nettoEgysegar>
+    <afakulcs>TEHK</afakulcs>
+    <nettoErtek>229.36</nettoErtek>
+    <afaErtek>0</afaErtek>
+    <bruttoErtek>229.36</bruttoErtek>
+  </tetel>
+  </tetelek>
+</xmlszamla>"
+`;
