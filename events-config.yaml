@@ -53,9 +53,13 @@ events:
       - ticket-name-contains: "Combo"
         date: "May 27-June 4, 2021"
       - ticket-name-contains: "Patrick Kua"
-        date: "May 28, 2021" 
+        date: "May 28, 2021"
+      - ticket-name-contains: "Katja"
+        date: "May 28, 2021"
       - ticket-name-contains: "May 4-6"
         date: "May 4-6, 2021"
+      - ticket-name-contains: "Wierckx"
+        date: "June 15, 17, 2021"
     catering:
       - ticket-name-contains: "*"
         net-price: 0
