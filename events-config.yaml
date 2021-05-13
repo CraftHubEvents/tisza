@@ -86,8 +86,8 @@ events:
         The CraftHub team
 
     bank:
-      name: 'K&H Bank, SWIFT: OKHBHUHB'
-      accountNumber: 'HU76-1040-3404-5052-6976-5752-1011'
+      name: 'Wise, BIC: TRWIBEB1XXX'
+      accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_CRAFT21
 
 
@@ -122,6 +122,6 @@ events:
         The CraftHub team
 
     bank:
-      name: 'K&H Bank, SWIFT: OKHBHUHB'
-      accountNumber: 'HU76-1040-3404-5052-6976-5752-1011'
+      name: 'Wise, BIC: TRWIBEB1XXX'
+      accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_AMUSEWSH21
