@@ -89,7 +89,6 @@ events:
       accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_CRAFT21
 
-
   amuse-workshops:
     label: "Amuse online workshops"
     dates:
