@@ -124,14 +124,14 @@ events:
       accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_AMUSEWSH21
     
-      impact-conference-2021:
+  impact-conference-2021:
     label: "Impact Conference 2021"
     dates:
       - ticket-name-contains: "Impact"
         date: "October 4, 2021"
     catering:
-      - ticket-name-contains: "*"
-        net-price: 0
+      - ticket-name-contains: "test"
+        net-price: 1
     invoice:
       id-prefix: "IMPCT"
       logo-image: ""
@@ -159,14 +159,14 @@ events:
       accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_IMPACT21
     
-      amuse-conference-2021:
+  amuse-conference-2021:
     label: "Amuse Conference 2021"
     dates:
       - ticket-name-contains: "October 5-6"
         date: "October 5-6, 2021"
     catering:
-      - ticket-name-contains: "*"
-        net-price: 0
+      - ticket-name-contains: "test"
+        net-price: 1
     invoice:
       id-prefix: "AMUSE"
       logo-image: ""
@@ -194,14 +194,14 @@ events:
       accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_AMUSE21
     
-      crunch-conference-2021:
+  crunch-conference-2021:
     label: "Crunch Conference 2021"
     dates:
       - ticket-name-contains: "October 7-8"
         date: "October 7-8, 2021"
     catering:
-      - ticket-name-contains: "*"
-        net-price: 0
+      - ticket-name-contains: "test"
+        net-price: 1
     invoice:
       id-prefix: "CRNCH"
       logo-image: ""
