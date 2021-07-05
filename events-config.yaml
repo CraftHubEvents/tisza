@@ -133,7 +133,7 @@ events:
       - ticket-name-contains: "*"
         net-price: 0
     invoice:
-      id-prefix: "CRAFT"
+      id-prefix: "IMPCT"
       logo-image: ""
       comment: |
         Paid in full.
@@ -168,7 +168,7 @@ events:
       - ticket-name-contains: "*"
         net-price: 0
     invoice:
-      id-prefix: "CRAFT"
+      id-prefix: "AMUSE"
       logo-image: ""
       comment: |
         Paid in full.
@@ -203,7 +203,7 @@ events:
       - ticket-name-contains: "*"
         net-price: 0
     invoice:
-      id-prefix: "CRAFT"
+      id-prefix: "CRNCH"
       logo-image: ""
       comment: |
         Paid in full.
