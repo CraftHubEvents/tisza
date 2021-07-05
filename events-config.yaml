@@ -141,7 +141,7 @@ events:
       e-invoice: true
       currency: EUR
     email:
-      replyToAddress: "hello@crafthub.events"
+      replyToAddress: "hello@impact-conf.com"
       subject: "Your invoice for Impact Conference"
       message: |
         Dear Attendee!
@@ -150,7 +150,7 @@ events:
 
         Please find attached our official invoice for the event.
         In case you have an issue with the invoice, or you have a general question
-        please write to: hello@crafthub.events
+        please write to: hello@impact-conf.com
 
         The CraftHub team
 
@@ -176,7 +176,7 @@ events:
       e-invoice: true
       currency: EUR
     email:
-      replyToAddress: "hello@crafthub.events"
+      replyToAddress: "hello@amuseconf.com"
       subject: "Your invoice for Amuse Conference"
       message: |
         Dear Attendee!
@@ -185,7 +185,7 @@ events:
 
         Please find attached our official invoice for the event.
         In case you have an issue with the invoice, or you have a general question
-        please write to: hello@crafthub.events
+        please write to: hello@amuseconf.com
 
         The CraftHub team
 
@@ -211,7 +211,7 @@ events:
       e-invoice: true
       currency: EUR
     email:
-      replyToAddress: "hello@crafthub.events"
+      replyToAddress: "hello@crunchconf.com"
       subject: "Your invoice for your Crunch Conference"
       message: |
         Dear Attendee!
@@ -220,7 +220,7 @@ events:
 
         Please find attached our official invoice for the event.
         In case you have an issue with the invoice, or you have a general question
-        please write to: hello@crafthub.events
+        please write to: hello@crunchconf.com
 
         The CraftHub team
 
