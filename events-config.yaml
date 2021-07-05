@@ -123,3 +123,108 @@ events:
       name: 'Wise, BIC: TRWIBEB1XXX'
       accountNumber: 'BE34 9671 8845 4390'
     tito-signature-validator-env: TITO_TOKEN_AMUSEWSH21
+    
+      impact-conference-2021:
+    label: "Impact Conference 2021"
+    dates:
+      - ticket-name-contains: "Conference"
+        date: "October 4, 2021"
+    catering:
+      - ticket-name-contains: "*"
+        net-price: 0
+    invoice:
+      id-prefix: "CRAFT"
+      logo-image: ""
+      comment: |
+        Paid in full.
+        This document was issued electronically and is therefore valid without signature.
+      e-invoice: true
+      currency: EUR
+    email:
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for Impact Conference"
+      message: |
+        Dear Attendee!
+
+        Thank you for purchasing tickets for Impact Conference.
+
+        Please find attached our official invoice for the event.
+        In case you have an issue with the invoice, or you have a general question
+        please write to: hello@crafthub.events
+
+        The CraftHub team
+
+    bank:
+      name: 'Wise, BIC: TRWIBEB1XXX'
+      accountNumber: 'BE34 9671 8845 4390'
+    tito-signature-validator-env: TITO_TOKEN_IMPACT21
+    
+      amuse-conference-2021:
+    label: "Amuse Conference 2021"
+    dates:
+      - ticket-name-contains: "Conference"
+        date: "June 2-4, 2021"
+    catering:
+      - ticket-name-contains: "*"
+        net-price: 0
+    invoice:
+      id-prefix: "CRAFT"
+      logo-image: ""
+      comment: |
+        Paid in full.
+        This document was issued electronically and is therefore valid without signature.
+      e-invoice: true
+      currency: EUR
+    email:
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for Amuse Conference"
+      message: |
+        Dear Attendee!
+
+        Thank you for purchasing tickets for Amuse Conference.
+
+        Please find attached our official invoice for the event.
+        In case you have an issue with the invoice, or you have a general question
+        please write to: hello@crafthub.events
+
+        The CraftHub team
+
+    bank:
+      name: 'Wise, BIC: TRWIBEB1XXX'
+      accountNumber: 'BE34 9671 8845 4390'
+    tito-signature-validator-env: TITO_TOKEN_AMUSE21
+    
+      crunch-conference-2021:
+    label: "Crunch Conference 2021"
+    dates:
+      - ticket-name-contains: "Conference"
+        date: "June 2-4, 2021"
+    catering:
+      - ticket-name-contains: "*"
+        net-price: 0
+    invoice:
+      id-prefix: "CRAFT"
+      logo-image: ""
+      comment: |
+        Paid in full.
+        This document was issued electronically and is therefore valid without signature.
+      e-invoice: true
+      currency: EUR
+    email:
+      replyToAddress: "hello@crafthub.events"
+      subject: "Your invoice for your Crunch Conference"
+      message: |
+        Dear Attendee!
+
+        Thank you for purchasing tickets for Crunch Conference.
+
+        Please find attached our official invoice for the event.
+        In case you have an issue with the invoice, or you have a general question
+        please write to: hello@crafthub.events
+
+        The CraftHub team
+
+    bank:
+      name: 'Wise, BIC: TRWIBEB1XXX'
+      accountNumber: 'BE34 9671 8845 4390'
+    tito-signature-validator-env: TITO_TOKEN_CRUNCH21
