@@ -132,6 +132,14 @@ events:
     catering:
       - ticket-name-contains: "test"
         net-price: 1
+      - ticket-name-contains: "early"
+        net-price: 31
+      - ticket-name-contains: "regular"
+        net-price: 31
+      - ticket-name-contains: "group"
+        net-price: 31
+      - ticket-name-contains: "[OFFLINE] Impact equality"
+        net-price: 62
     invoice:
       id-prefix: "IMPCT"
       logo-image: ""
@@ -167,6 +175,14 @@ events:
     catering:
       - ticket-name-contains: "test"
         net-price: 1
+      - ticket-name-contains: "early"
+        net-price: 62
+      - ticket-name-contains: "regular"
+        net-price: 62
+      - ticket-name-contains: "group"
+        net-price: 62
+      - ticket-name-contains: "[OFFLINE] Amuse equality"
+        net-price: 124
     invoice:
       id-prefix: "AMUSE"
       logo-image: ""
@@ -202,6 +218,14 @@ events:
     catering:
       - ticket-name-contains: "test"
         net-price: 1
+      - ticket-name-contains: "early"
+        net-price: 62
+      - ticket-name-contains: "regular"
+        net-price: 62
+      - ticket-name-contains: "group"
+        net-price: 62
+      - ticket-name-contains: "[OFFLINE] Crunch equality"
+        net-price: 124
     invoice:
       id-prefix: "CRNCH"
       logo-image: ""
