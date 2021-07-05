@@ -236,7 +236,7 @@ events:
       currency: EUR
     email:
       replyToAddress: "hello@crunchconf.com"
-      subject: "Your invoice for your Crunch Conference"
+      subject: "Your invoice for Crunch Conference"
       message: |
         Dear Attendee!
 
