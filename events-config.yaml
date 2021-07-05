@@ -127,7 +127,7 @@ events:
       impact-conference-2021:
     label: "Impact Conference 2021"
     dates:
-      - ticket-name-contains: "Conference"
+      - ticket-name-contains: "Impact"
         date: "October 4, 2021"
     catering:
       - ticket-name-contains: "*"
@@ -162,8 +162,8 @@ events:
       amuse-conference-2021:
     label: "Amuse Conference 2021"
     dates:
-      - ticket-name-contains: "Conference"
-        date: "June 2-4, 2021"
+      - ticket-name-contains: "October 5-6"
+        date: "October 5-6, 2021"
     catering:
       - ticket-name-contains: "*"
         net-price: 0
@@ -197,8 +197,8 @@ events:
       crunch-conference-2021:
     label: "Crunch Conference 2021"
     dates:
-      - ticket-name-contains: "Conference"
-        date: "June 2-4, 2021"
+      - ticket-name-contains: "October 7-8"
+        date: "October 7-8, 2021"
     catering:
       - ticket-name-contains: "*"
         net-price: 0
