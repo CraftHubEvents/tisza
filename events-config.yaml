@@ -140,6 +140,8 @@ events:
         net-price: 31
       - ticket-name-contains: "[OFFLINE] Impact equality"
         net-price: 62
+      - ticket-name-contains: "ONLINE"
+        net-price: 0
     invoice:
       id-prefix: "IMPCT"
       logo-image: ""
@@ -183,6 +185,8 @@ events:
         net-price: 62
       - ticket-name-contains: "[OFFLINE] Amuse equality"
         net-price: 124
+      - ticket-name-contains: "ONLINE"
+        net-price: 0
     invoice:
       id-prefix: "AMUSE"
       logo-image: ""
@@ -226,6 +230,8 @@ events:
         net-price: 62
       - ticket-name-contains: "[OFFLINE] Crunch equality"
         net-price: 124
+      - ticket-name-contains: "ONLINE"
+        net-price: 0
     invoice:
       id-prefix: "CRNCH"
       logo-image: ""
